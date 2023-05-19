@@ -161,7 +161,7 @@ def connect_database():
     def connect():
         global mycursor,con
         try:
-            con=pymysql.connect(host='localhost',user='root',password='cesar')
+            con=pymysql.connect(host='localhost',user='root',password='tu_contrasena')
             mycursor=con.cursor()
             
         except:
